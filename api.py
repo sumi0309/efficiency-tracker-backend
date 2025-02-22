@@ -5,6 +5,7 @@ from fastapi.responses import JSONResponse
 import uvicorn
 from datetime import datetime
 import json
+from fastapi.middleware.cors import CORSMiddleware
 import os
 from typing import Dict, Optional
 from dotenv import load_dotenv
@@ -26,6 +27,14 @@ app = FastAPI(
     title="Construction Analytics API",
     description="API for running construction site analytics including video analysis",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace with your frontend URL in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Store for analysis status
@@ -146,4 +155,9 @@ async def get_all_reports():
 
 
 if __name__ == "__main__":
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run(
+        "api:app", 
+        host="0.0.0.0", 
+        port=8000, 
+        reload=False 
+    )
