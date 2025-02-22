@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+typing-extensions
+p
+p-utils
+p-doc
+jsonlib
+p-config
+scikit-learn
+prophet
+p-models
+np-data
+numpy
+pandas
+opencv-python
+torch
+ultralytics

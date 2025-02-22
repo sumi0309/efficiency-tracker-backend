@@ -1,0 +1,1145 @@
+{
+  "zone_metrics": {
+    "Zone A": {
+      "utilization": 80.53,
+      "worker_density": "low",
+      "equipment_count": 24,
+      "activity_level": "low"
+    },
+    "Zone B": {
+      "utilization": 75.79,
+      "worker_density": "low",
+      "equipment_count": 39,
+      "activity_level": "low"
+    },
+    "Zone C": {
+      "utilization": 78.63,
+      "worker_density": "low",
+      "equipment_count": 37,
+      "activity_level": "low"
+    }
+  },
+  "efficiency_predictions": {
+    "timestamps": [
+      "00:00",
+      "01:00",
+      "02:00",
+      "03:00",
+      "04:00",
+      "05:00",
+      "06:00",
+      "07:00",
+      "08:00",
+      "09:00",
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00",
+      "17:00",
+      "18:00",
+      "19:00",
+      "20:00",
+      "21:00",
+      "22:00",
+      "23:00"
+    ],
+    "historical_values": [
+      78.2,
+      82.7,
+      73.7,
+      80.8,
+      84.3,
+      82.0,
+      81.5,
+      80.9,
+      83.2,
+      82.0,
+      74.9,
+      74.4,
+      76.5,
+      80.2,
+      65.2,
+      79.8,
+      67.9,
+      83.1,
+      72.0,
+      80.2,
+      80.7,
+      72.3,
+      80.0,
+      76.6
+    ],
+    "predicted_values": [
+      80.0,
+      79.6,
+      75.5,
+      78.5,
+      80.8,
+      82.0,
+      83.1,
+      83.3,
+      84.0,
+      82.8,
+      80.3,
+      79.3,
+      80.1,
+      81.6,
+      75.0,
+      81.6,
+      78.9,
+      86.1,
+      82.9,
+      85.6,
+      86.1,
+      82.6,
+      86.4,
+      77.2
+    ],
+    "current_value": {
+      "time": "18:00",
+      "value": 72.0
+    }
+  },
+  "performance_metrics": {
+    "efficiency": [
+      75,
+      82.7,
+      73.7,
+      80.8,
+      84.3,
+      82.0,
+      81.5,
+      80.9,
+      83.2,
+      82.0,
+      74.9,
+      74.4,
+      76.5,
+      80.2,
+      65.2,
+      79.8,
+      67.9,
+      83.1,
+      72.0,
+      80.2,
+      80.7,
+      72.3,
+      80.0,
+      76.6
+    ],
+    "work_completion": [
+      80,
+      45.3,
+      60.9,
+      17.6,
+      48.1,
+      43.7,
+      51.8,
+      42.8,
+      52.6,
+      32.2,
+      66.3,
+      69.2,
+      75.6,
+      55.1,
+      48.5,
+      38.2,
+      22.4,
+      66.5,
+      46.6,
+      33.5,
+      39.5,
+      57.4,
+      35.3,
+      46.5
+    ],
+    "labor_utilization": [
+      20.0,
+      0.0,
+      50.0,
+      66.7,
+      50.0,
+      50.0,
+      0.0,
+      33.3,
+      50.0,
+      50.0,
+      0.0,
+      33.3,
+      60.0,
+      0.0,
+      0.0,
+      50.0,
+      37.5,
+      0.0,
+      20.0,
+      16.7,
+      66.7,
+      0.0,
+      33.3,
+      50.0
+    ],
+    "timestamps": [
+      "00:00",
+      "01:00",
+      "02:00",
+      "03:00",
+      "04:00",
+      "05:00",
+      "06:00",
+      "07:00",
+      "08:00",
+      "09:00",
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00",
+      "17:00",
+      "18:00",
+      "19:00",
+      "20:00",
+      "21:00",
+      "22:00",
+      "23:00"
+    ]
+  },
+  "resource_distribution": {
+    "timestamps": [
+      "00:00",
+      "01:00",
+      "02:00",
+      "03:00",
+      "04:00",
+      "05:00",
+      "06:00",
+      "07:00",
+      "08:00",
+      "09:00",
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00",
+      "17:00",
+      "18:00",
+      "19:00",
+      "20:00",
+      "21:00",
+      "22:00",
+      "23:00"
+    ],
+    "workers": [
+      5,
+      6,
+      4,
+      3,
+      6,
+      4,
+      2,
+      3,
+      4,
+      4,
+      5,
+      3,
+      5,
+      3,
+      2,
+      4,
+      8,
+      5,
+      5,
+      6,
+      3,
+      5,
+      3,
+      2
+    ],
+    "equipment": [
+      0,
+      5,
+      7,
+      3,
+      1,
+      5,
+      2,
+      6,
+      4,
+      7,
+      2,
+      4,
+      5,
+      5,
+      4,
+      4,
+      2,
+      3,
+      3,
+      5,
+      4,
+      8,
+      6,
+      5
+    ],
+    "equipment_details": [
+      [],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_18",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_51",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_66",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_77",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_85",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_16",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_17",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_44",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_46",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_55",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_83",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_94",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_53",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_92",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_97",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_68",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_32",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_34",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_59",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_69",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_78",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_0",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_4",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_8",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_39",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_41",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_64",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_72",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_74",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_21",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_31",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_87",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_93",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_5",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_14",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_26",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_47",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_57",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_76",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_82",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_50",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_71",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_3",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_24",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_28",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_35",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_1",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_20",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_23",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_36",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_42",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_11",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_37",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_43",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_67",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_98",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_15",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_22",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_73",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_86",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_13",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_40",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_49",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_88",
+          "status": "Maintenance"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_48",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_89",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_19",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_80",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_84",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_6",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_9",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_75",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_29",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_58",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_60",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_65",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_70",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_12",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_27",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_61",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_95",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_10",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_30",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_52",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_54",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_79",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_90",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_96",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_99",
+          "status": "Active"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_7",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_33",
+          "status": "Inactive"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_45",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_56",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_62",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_81",
+          "status": "Inactive"
+        }
+      ],
+      [
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_2",
+          "status": "Active"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_25",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_38",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_63",
+          "status": "Maintenance"
+        },
+        {
+          "name": "Construction_Equipment",
+          "id": "EQ_91",
+          "status": "Maintenance"
+        }
+      ]
+    ]
+  },
+  "equipment_status": {
+    "Construction_Equipment_0": {
+      "status": "Inactive",
+      "utilization": 74.43,
+      "location": "Zone C",
+      "equipment_type": "Construction_Equipment"
+    },
+    "Construction_Equipment_1": {
+      "status": "Maintenance",
+      "utilization": 76.77,
+      "location": "Zone A",
+      "equipment_type": "Construction_Equipment"
+    },
+    "Construction_Equipment_10": {
+      "status": "Inactive",
+      "utilization": 65.29,
+      "location": "Zone C",
+      "equipment_type": "Construction_Equipment"
+    },
+    "Construction_Equipment_11": {
+      "status": "Inactive",
+      "utilization": 60.39,
+      "location": "Zone C",
+      "equipment_type": "Construction_Equipment"
+    },
+    "Construction_Equipment_12": {
+      "status": "Inactive",
+      "utilization": 64.53,
+      "location": "Zone B",
+      "equipment_type": "Construction_Equipment"
+    },
+    "Construction_Equipment_13": {
+      "status": "Maintenance",
+      "utilization": 82.13,
+      "location": "Zone A",
+      "equipment_type": "Construction_Equipment"
+    }
+  },
+  "summary_metrics": {
+    "summary": {
+      "overall_efficiency": 78.0,
+      "labor_utilization": 30.0,
+      "task_completion": 48.3,
+      "quality_score": 86.6
+    },
+    "time_distribution": {
+      "active_time": "-221h 1m",
+      "break_time": "-22h 48m",
+      "downtime": "267h 58m"
+    },
+    "task_metrics": {
+      "tasks_completed": "0/100",
+      "average_completion_time": "1366m",
+      "quality_compliance": "86.6%"
+    }
+  },
+  "risks_and_predictions": {
+    "risk_assessment": {
+      "Zone A": 48,
+      "Zone B": 42,
+      "Zone C": 49
+    },
+    "predictive_insights": {
+      "peak_efficiency": {
+        "value": 94.5,
+        "expected_time": "14:00"
+      },
+      "bottleneck": {
+        "zone": "Zone B",
+        "reason": "Resource shortage predicted"
+      },
+      "staffing": {
+        "recommendation": "+3 workers",
+        "zone": "Zone C"
+      }
+    }
+  },
+  "resource_optimization": {
+    "recommended_shifts": "+0 Evening",
+    "equipment_relocation": "2 units"
+  },
+  "weather_impact": {
+    "forecast": "Light Rain",
+    "probability": 19,
+    "productivity_impact": 0
+  },
+  "video_inference": {
+    "overall_metrics": {
+      "total_videos_analyzed": 28,
+      "total_workers_detected": 171.5,
+      "average_productivity_rate": 57.99,
+      "total_analysis_duration": 255.0
+    },
+    "camera_feeds": {
+      "20250221_2131_Workers Taking Break_simple_compose_01jmnqx7xzf9et86hmzb0x1cme.mp4": {
+        "duration_seconds": 5.0,
+        "frames_analyzed": 150,
+        "average_workers": 3.0,
+        "average_active_workers": 1.0,
+        "productivity_rate": 33.33,
+        "samples_taken": 1
+      },
+      "20250221_2215_Construction Site Inactivity_simple_compose_01jmntdkyhfxhtmbem3e46k0ma.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 8.0,
+        "average_active_workers": 3.5,
+        "productivity_rate": 43.75,
+        "samples_taken": 2
+      },
+      "20250221_2225_Building Progress_simple_compose_01jmnv02hbf8avn4xfdfkygfbe.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 1.0,
+        "average_active_workers": 1.0,
+        "productivity_rate": 100.0,
+        "samples_taken": 2
+      },
+      "20250221_2228_Busy Construction Scene_simple_compose_01jmnv6hq9fmfb2gfd6h80czah.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 17.0,
+        "average_active_workers": 12.0,
+        "productivity_rate": 70.59,
+        "samples_taken": 1
+      },
+      "20250221_2229_Construction Site Surveillance_simple_compose_01jmnv8p6jfedt87e79t6cbvr0.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 3.5,
+        "average_active_workers": 2.5,
+        "productivity_rate": 71.43,
+        "samples_taken": 2
+      },
+      "20250221_2235_Busy Site, Quiet Corner_simple_compose_01jmnvhy0te2rsbkebjq4fq3zm.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 6.5,
+        "average_active_workers": 3.0,
+        "productivity_rate": 46.15,
+        "samples_taken": 2
+      },
+      "20250221_2237_Workers Taking Break_simple_compose_01jmnvpk17fdwrgh5a87nakf2g.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 4.0,
+        "average_active_workers": 2.5,
+        "productivity_rate": 62.5,
+        "samples_taken": 2
+      },
+      "20250221_2240_Construction Site Rest Break_simple_compose_01jmnvvf1yeana3348mz0fh407.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 4.5,
+        "average_active_workers": 3.0,
+        "productivity_rate": 66.67,
+        "samples_taken": 2
+      },
+      "20250221_2244_Busy Construction Site_simple_compose_01jmnw2jmwey5spb03mv5fp34m.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 8.5,
+        "average_active_workers": 5.0,
+        "productivity_rate": 58.82,
+        "samples_taken": 2
+      },
+      "20250221_2245_Idle Construction Site_simple_compose_01jmnw50kkekha34ye6wxgffm1.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 16.5,
+        "average_active_workers": 10.0,
+        "productivity_rate": 60.61,
+        "samples_taken": 2
+      },
+      "20250221_2303_Inefficiency at Construction Site_simple_compose_01jmnx6nxje0nrv9ckp26fsdr8.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 6.5,
+        "average_active_workers": 2.5,
+        "productivity_rate": 38.46,
+        "samples_taken": 2
+      },
+      "20250221_2304_Inefficiency at Construction Site_simple_compose_01jmnx6nxzfjhbyq7nwhnq0mnp.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 8.0,
+        "average_active_workers": 4.5,
+        "productivity_rate": 56.25,
+        "samples_taken": 2
+      },
+      "20250221_2304_Inefficiency at Construction Site_simple_compose_01jmnx6ny4fhmazjfkvzwz8wh7.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 9.0,
+        "average_active_workers": 3.5,
+        "productivity_rate": 38.89,
+        "samples_taken": 2
+      },
+      "20250221_2310_Skyscraper Construction in Progress_simple_compose_01jmnxkhqreadbwczvkt7kehz9.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 3.0,
+        "average_active_workers": 1.5,
+        "productivity_rate": 50.0,
+        "samples_taken": 2
+      },
+      "20250221_2310_Skyscraper Construction in Progress_simple_compose_01jmnxkhsaf578vb4q201tf42s (1).mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 3.0,
+        "average_active_workers": 2.0,
+        "productivity_rate": 66.67,
+        "samples_taken": 1
+      },
+      "20250221_2310_Skyscraper Construction in Progress_simple_compose_01jmnxkhsaf578vb4q201tf42s.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 3.0,
+        "average_active_workers": 2.0,
+        "productivity_rate": 66.67,
+        "samples_taken": 1
+      },
+      "20250221_2314_Dynamic Construction Symphony_simple_compose_01jmnxtafxed99121y1d5j55j8.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 8.0,
+        "average_active_workers": 5.0,
+        "productivity_rate": 62.5,
+        "samples_taken": 2
+      },
+      "20250221_2314_Dynamic Construction Symphony_simple_compose_01jmnxtag7e14atzapj2dzejht.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 5.0,
+        "average_active_workers": 2.5,
+        "productivity_rate": 50.0,
+        "samples_taken": 2
+      },
+      "20250221_2314_Dynamic Construction Symphony_simple_compose_01jmnxtagcecv9zt5wb722wxjt.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 2.5,
+        "average_active_workers": 1.5,
+        "productivity_rate": 60.0,
+        "samples_taken": 2
+      },
+      "20250221_2317_Chaotic Construction Scene_simple_compose_01jmnxzfrwetw8axmh9wc5mmx7.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 2.5,
+        "average_active_workers": 1.5,
+        "productivity_rate": 60.0,
+        "samples_taken": 2
+      },
+      "20250221_2317_Chaotic Construction Scene_simple_compose_01jmnxzftter7byk28q9ry8sw5.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 5.0,
+        "average_active_workers": 3.0,
+        "productivity_rate": 60.0,
+        "samples_taken": 2
+      },
+      "20250221_2317_Chaotic Construction Scene_simple_compose_01jmnxzftzeyjahgbydhv9fyg0.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 4.0,
+        "average_active_workers": 2.0,
+        "productivity_rate": 50.0,
+        "samples_taken": 2
+      },
+      "20250221_2319_Chaotic Construction Chaos_simple_compose_01jmny2x3be79brkb5svxxmq6s.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 12.0,
+        "average_active_workers": 5.5,
+        "productivity_rate": 45.83,
+        "samples_taken": 2
+      },
+      "20250221_2319_Chaotic Construction Chaos_simple_compose_01jmny2x3gevpsntdm1ryp58d5.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 8.5,
+        "average_active_workers": 5.0,
+        "productivity_rate": 58.82,
+        "samples_taken": 2
+      },
+      "20250221_2319_Chaotic Construction Chaos_simple_compose_01jmny2x3mesy9and867r1ftrj.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 12.0,
+        "average_active_workers": 7.0,
+        "productivity_rate": 58.33,
+        "samples_taken": 2
+      },
+      "20250221_2319_Chaotic Construction Chaos_simple_compose_01jmny2x3rerrtta7rqhean5ng.mp4": {
+        "duration_seconds": 10.0,
+        "frames_analyzed": 300,
+        "average_workers": 7.0,
+        "average_active_workers": 5.0,
+        "productivity_rate": 71.43,
+        "samples_taken": 2
+      }
+    }
+  }
+}
